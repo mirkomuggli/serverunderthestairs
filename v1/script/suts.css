@@ -1,0 +1,36 @@
+/*
+Cascading Style Sheet for b34r.net
+title = "b34r.css"
+*/
+img {
+	border: 0;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	height: 100vh;
+	width: 100vw;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.divbkgd {
+	height:100%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/background.gif");
+	background-repeat:repeat;
+}
+
+font.bFont {
+	font-size: small;
+	font-style: normal;
+	font-family: calibri, sans-serif;
+	color: #AAAAAA;
+}
